@@ -1,0 +1,142 @@
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\CMAKEFILES\45D16ACCFE42B5BB62CF65541ADF55E7\DEP_SPDLOG-MKDIR.RULE
+setlocal
+C:\Users\HP\bin\cmake.exe -P "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe -E touch "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\CMAKEFILES\45D16ACCFE42B5BB62CF65541ADF55E7\DEP_SPDLOG-DOWNLOAD.RULE
+setlocal
+C:\Users\HP\bin\cmake.exe -P "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-download.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe -E touch "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\CMAKEFILES\45D16ACCFE42B5BB62CF65541ADF55E7\DEP_SPDLOG-UPDATE.RULE
+setlocal
+C:\Users\HP\bin\cmake.exe -P "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-update.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\CMAKEFILES\45D16ACCFE42B5BB62CF65541ADF55E7\DEP_SPDLOG-PATCH.RULE
+setlocal
+C:\Users\HP\bin\cmake.exe -P "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-patch.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe -E touch "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\CMAKEFILES\45D16ACCFE42B5BB62CF65541ADF55E7\DEP_SPDLOG-CONFIGURE.RULE
+setlocal
+cd "C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe "-DCMAKE_INSTALL_PREFIX=C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/install" "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/src/dep_spdlog"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe -E touch "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\CMAKEFILES\45D16ACCFE42B5BB62CF65541ADF55E7\DEP_SPDLOG-BUILD.RULE
+setlocal
+cd "C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe -E touch "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\CMAKEFILES\45D16ACCFE42B5BB62CF65541ADF55E7\DEP_SPDLOG-INSTALL.RULE
+setlocal
+cd "C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe -E touch "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\CMAKEFILES\45D16ACCFE42B5BB62CF65541ADF55E7\DEP_SPDLOG-TEST.RULE
+setlocal
+cd "C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe -E touch "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\CMAKEFILES\004A7CFDF1C154C234337679F5844FA0\DEP_SPDLOG-COMPLETE.RULE
+setlocal
+C:\Users\HP\bin\cmake.exe -E make_directory "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe -E touch "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/Debug/dep_spdlog-complete"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\bin\cmake.exe -E touch "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\CMAKEFILES\362A0E550A6890A5AF2167B6F159BF31\DEP_SPDLOG.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\CMAKELISTS.TXT
+setlocal
+C:\Users\HP\bin\cmake.exe "-SC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example" "-BC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build" --check-stamp-file "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

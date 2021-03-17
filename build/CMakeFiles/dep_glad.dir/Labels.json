@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/dep_glad"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/362a0e550a6890a5af2167b6f159bf31/dep_glad.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/004a7cfdf1c154c234337679f5844fa0/dep_glad-complete.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-build.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-configure.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-download.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-install.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-patch.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-test.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glad"
+		],
+		"name" : "dep_glad"
+	}
+}

@@ -1,0 +1,1 @@
+cmd='C:/Users/HP/bin/cmake.exe;-DCMAKE_INSTALL_PREFIX=C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/install;-GVisual Studio 16 2019;-Ax64;-Thost=x64;-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community;<SOURCE_DIR><SOURCE_SUBDIR>'

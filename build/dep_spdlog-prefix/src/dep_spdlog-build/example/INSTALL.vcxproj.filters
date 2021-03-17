@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build\CMakeFiles\1ef8e1e50e25f3927ea064764e9f85c8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{97FF4D45-14D7-305C-883F-074E1B8C4CF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

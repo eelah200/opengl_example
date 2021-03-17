@@ -1,0 +1,14 @@
+# Target labels
+ dep_glad
+# Source files and their labels
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/dep_glad
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/362a0e550a6890a5af2167b6f159bf31/dep_glad.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/004a7cfdf1c154c234337679f5844fa0/dep_glad-complete.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-build.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-configure.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-download.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-install.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-mkdir.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-patch.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-test.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/8f0395383f7bb814d7d57aa0c25e2653/dep_glad-update.rule

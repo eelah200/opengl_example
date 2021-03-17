@@ -1,0 +1,5 @@
+method=git
+repository=https://github.com/glfw/glfw.git
+remote=origin
+source_dir=C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_glfw-prefix/src/dep_glfw
+

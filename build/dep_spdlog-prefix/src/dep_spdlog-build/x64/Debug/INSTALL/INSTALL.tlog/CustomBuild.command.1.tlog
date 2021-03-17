@@ -1,0 +1,10 @@
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\DEP_SPDLOG-PREFIX\SRC\DEP_SPDLOG-BUILD\CMAKEFILES\8D935BC9DBE617BF2219EB5F199A7C78\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

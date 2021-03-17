@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7455AAB0-9281-3FAF-BC92-34E717DEF9CA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opengl_example</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opengl_example.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opengl_example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opengl_example.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opengl_example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opengl_example.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opengl_example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opengl_example.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opengl_example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WINDOW_NAME="Opengl Example";WINDOW_WIDTH=960;WINDOW_HEIGHT=540;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WINDOW_NAME=\"Opengl Example\";WINDOW_WIDTH=960;WINDOW_HEIGHT=540;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>spdlogd.lib;glfw3.lib;glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/install/lib;C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/install/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/Debug/opengl_example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/Debug/opengl_example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOW_NAME="Opengl Example";WINDOW_WIDTH=960;WINDOW_HEIGHT=540;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOW_NAME=\"Opengl Example\";WINDOW_WIDTH=960;WINDOW_HEIGHT=540;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>spdlog.lib;glfw3.lib;glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/install/lib;C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/install/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/Release/opengl_example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/Release/opengl_example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOW_NAME="Opengl Example";WINDOW_WIDTH=960;WINDOW_HEIGHT=540;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOW_NAME=\"Opengl Example\";WINDOW_WIDTH=960;WINDOW_HEIGHT=540;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>spdlog.lib;glfw3.lib;glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/install/lib;C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/install/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/MinSizeRel/opengl_example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/MinSizeRel/opengl_example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOW_NAME="Opengl Example";WINDOW_WIDTH=960;WINDOW_HEIGHT=540;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOW_NAME=\"Opengl Example\";WINDOW_WIDTH=960;WINDOW_HEIGHT=540;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>spdlog.lib;glfw3.lib;glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/install/lib;C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/install/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/RelWithDebInfo/opengl_example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/RelWithDebInfo/opengl_example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\HP\bin\cmake.exe "-SC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example" "-BC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build" --check-stamp-file "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\Dependency.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeCCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeCXXCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeRCCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeSystem.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\cfgcmd.txt.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\gitclone.cmake.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\mkdirs.cmake.in;C:\Users\HP\share\cmake-3.20\Modules\FindGit.cmake;C:\Users\HP\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\HP\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\HP\bin\cmake.exe "-SC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example" "-BC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build" --check-stamp-file "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\Dependency.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeCCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeCXXCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeRCCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeSystem.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\cfgcmd.txt.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\gitclone.cmake.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\mkdirs.cmake.in;C:\Users\HP\share\cmake-3.20\Modules\FindGit.cmake;C:\Users\HP\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\HP\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\HP\bin\cmake.exe "-SC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example" "-BC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build" --check-stamp-file "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\Dependency.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeCCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeCXXCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeRCCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeSystem.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\cfgcmd.txt.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\gitclone.cmake.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\mkdirs.cmake.in;C:\Users\HP\share\cmake-3.20\Modules\FindGit.cmake;C:\Users\HP\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\HP\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\HP\bin\cmake.exe "-SC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example" "-BC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build" --check-stamp-file "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\Dependency.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeCCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeCXXCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeRCCompiler.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\3.20.0-rc2\CMakeSystem.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\HP\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Users\HP\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\cfgcmd.txt.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\gitclone.cmake.in;C:\Users\HP\share\cmake-3.20\Modules\ExternalProject\mkdirs.cmake.in;C:\Users\HP\share\cmake-3.20\Modules\FindGit.cmake;C:\Users\HP\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\HP\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Users\HP\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\ZERO_CHECK.vcxproj">
+      <Project>{5E8330EC-59EA-3CE4-868E-F48AD1C647BD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_glad.vcxproj">
+      <Project>{F27F79F5-71A7-375D-A236-26164CCAC179}</Project>
+      <Name>dep_glad</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_glfw.vcxproj">
+      <Project>{A2FAFE7F-8656-33B4-B657-AFB4FD9C9F02}</Project>
+      <Name>dep_glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_spdlog.vcxproj">
+      <Project>{C1271A81-879A-3A0E-834E-4C7ECDE10825}</Project>
+      <Name>dep_spdlog</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

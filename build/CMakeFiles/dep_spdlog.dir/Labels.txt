@@ -1,0 +1,14 @@
+# Target labels
+ dep_spdlog
+# Source files and their labels
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/dep_spdlog
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/362a0e550a6890a5af2167b6f159bf31/dep_spdlog.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/004a7cfdf1c154c234337679f5844fa0/dep_spdlog-complete.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/45d16accfe42b5bb62cf65541adf55e7/dep_spdlog-build.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/45d16accfe42b5bb62cf65541adf55e7/dep_spdlog-configure.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/45d16accfe42b5bb62cf65541adf55e7/dep_spdlog-download.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/45d16accfe42b5bb62cf65541adf55e7/dep_spdlog-install.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/45d16accfe42b5bb62cf65541adf55e7/dep_spdlog-mkdir.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/45d16accfe42b5bb62cf65541adf55e7/dep_spdlog-patch.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/45d16accfe42b5bb62cf65541adf55e7/dep_spdlog-test.rule
+C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/45d16accfe42b5bb62cf65541adf55e7/dep_spdlog-update.rule

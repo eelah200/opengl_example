@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/dep_glfw"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/362a0e550a6890a5af2167b6f159bf31/dep_glfw.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/004a7cfdf1c154c234337679f5844fa0/dep_glfw-complete.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/3fd5e73420e7484be4a1699c127cfcf0/dep_glfw-build.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/3fd5e73420e7484be4a1699c127cfcf0/dep_glfw-configure.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/3fd5e73420e7484be4a1699c127cfcf0/dep_glfw-download.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/3fd5e73420e7484be4a1699c127cfcf0/dep_glfw-install.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/3fd5e73420e7484be4a1699c127cfcf0/dep_glfw-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/3fd5e73420e7484be4a1699c127cfcf0/dep_glfw-patch.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/3fd5e73420e7484be4a1699c127cfcf0/dep_glfw-test.rule"
+		},
+		{
+			"file" : "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/CMakeFiles/3fd5e73420e7484be4a1699c127cfcf0/dep_glfw-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glfw"
+		],
+		"name" : "dep_glfw"
+	}
+}

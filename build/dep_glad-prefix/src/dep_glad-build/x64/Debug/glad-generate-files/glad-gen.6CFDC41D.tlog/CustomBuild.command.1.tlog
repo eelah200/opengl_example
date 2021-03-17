@@ -1,0 +1,32 @@
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\DEP_GLAD-PREFIX\SRC\DEP_GLAD-BUILD\CMAKEFILES\61E3FD053EF3CAB4737329A3FA519258\GLAD.C.RULE
+setlocal
+cd "C:\Users\HP\OneDrive\바탕 화면\CODE\opengl_example\build\dep_glad-prefix\src\dep_glad"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\HP\AppData\Local\Programs\Python\Python39\python.exe -m glad --profile=compatibility "--out-path=C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_glad-prefix/src/dep_glad-build" --api= --generator=c --extensions= --spec=gl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\DEP_GLAD-PREFIX\SRC\DEP_GLAD-BUILD\CMAKEFILES\F6ED2092F5C4FBFD8E241B807A412EDC\GLAD-GENERATE-FILES.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HP\ONEDRIVE\바탕 화면\CODE\OPENGL_EXAMPLE\BUILD\DEP_GLAD-PREFIX\SRC\DEP_GLAD\CMAKELISTS.TXT
+setlocal
+C:\Users\HP\bin\cmake.exe "-SC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_glad-prefix/src/dep_glad" "-BC:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_glad-prefix/src/dep_glad-build" --check-stamp-file "C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
