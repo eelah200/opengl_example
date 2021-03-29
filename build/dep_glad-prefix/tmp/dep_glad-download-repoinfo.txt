@@ -1,5 +1,0 @@
-method=git
-repository=https://github.com/Dav1dde/glad
-remote=origin
-source_dir=C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_glad-prefix/src/dep_glad
-

@@ -1,5 +1,0 @@
-C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/glad-generate-files.dir
-C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/glad.dir
-C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/INSTALL.dir
-C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/ALL_BUILD.dir
-C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/ZERO_CHECK.dir

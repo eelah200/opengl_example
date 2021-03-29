@@ -1,5 +1,0 @@
-method=git
-repository=https://github.com/gabime/spdlog.git
-remote=origin
-source_dir=C:/Users/HP/OneDrive/바탕 화면/CODE/opengl_example/build/dep_spdlog-prefix/src/dep_spdlog
-
