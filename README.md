@@ -1,9 +1,7 @@
-# 7주차 프로젝트
+# 9주차 프로젝트
 
--카메라 설정값의 의미 이해
+-Ambient / Diffuse / Specular 이해
 
--view transform 계산하기
+-Phong의 조명모델을 shader로 구현하기
 
--키보드 및 마우스로 카메라 조작하기
-
--ImGui 라이브러리 설정 및 사용하기
+-Diffuse texture / Specular texture 활용하기
