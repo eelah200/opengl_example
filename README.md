@@ -1,7 +1,7 @@
-# 9주차 프로젝트
+# 10주차 프로젝트
 
--Ambient / Diffuse / Specular 이해
+-Directional light, point light, spotlight를 구현해보자
 
--Phong의 조명모델을 shader로 구현하기
+-Assimp 라이브러리를 사용하여 3D 모델을 로딩해보자
 
--Diffuse texture / Specular texture 활용하기
+-텍스처까지 온전히 입혀진 3D 모델을 렌더링해보자

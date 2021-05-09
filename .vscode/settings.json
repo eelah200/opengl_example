@@ -3,6 +3,7 @@
         "cwd" : "${workspaceFolder}"
     },
     "files.associations": {
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "type_traits": "cpp"
     }
 }
