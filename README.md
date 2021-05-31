@@ -1,7 +1,9 @@
-# 12주차 프로젝트
+# 13주차 프로젝트
 
--Cubemap을 사용하여 skymap / environment mapping 구현하기
+- 고급 라이팅 알고리즘을 구현해보자
 
--Instancing 사용하기
+- blinn shading
 
--MSAA 활성화하기
+- shadow map
+
+- normal mapping
