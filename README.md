@@ -1,7 +1,7 @@
-# 12주차 프로젝트
+# 15주차 프로젝트
 
--Cubemap을 사용하여 skymap / environment mapping 구현하기
+- Realtime PBR 알고리즘을 구현해보자
 
--Instancing 사용하기
+- PBR lighting / texturing
 
--MSAA 활성화하기
+- Diffuse + Specular IBL
